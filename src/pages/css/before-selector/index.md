@@ -3,13 +3,35 @@ title: Before Selector
 ---
 ## Before Selector
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/before-selector/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The ::before selector inserts something before the content of each selected element(s).
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Use the content property to specify the content to insert.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+Use the ::after selector to insert something after the content.
 
+```CSS
+
+//before selector
+::before {
+    css declarations;
+}
+
+//after selector
+::after {
+    css declarations;
+}
+```
+Example : Below css code will add the text/content "Read this -" before any ``` <p> ``` tag appearing in yout HTML. Apart from ``` content ``` property
+You can have any other css properties as well like ``` backgorund-color ```, ``` color ```, ``` font-weight ```, etc.
+  
+````CSS
+
+p::before { 
+    content: "Read this -";
+}
+
+````
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+You can check more on this <a href="https://www.w3schools.com/cssref/sel_before.asp">here</a>
 
 
