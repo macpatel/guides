@@ -34,6 +34,6 @@ The default value for target is ``` "" ``` (empty string). When clicked on the l
 Example 1 above will open the link in the same tab when clicked. While Example 2 will open the google.com in new tab when clicked.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+For more Information. Read this article <a href="https://html.com/attributes/a-target/">here</a>
 
 
